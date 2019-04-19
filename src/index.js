@@ -4,6 +4,6 @@ import './index.css';
 import App from './components/App';
 
 ReactDOM.render(
-  <App url="https://github.com/completejavascript/lazy-loading-image-demo" />, 
+  <App url="https://github.com/httvhutceoscop/ReactJS-LazyImage" />, 
   document.getElementById('root')
 );
