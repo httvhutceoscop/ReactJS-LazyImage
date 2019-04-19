@@ -27,9 +27,10 @@ const createImgData = () => {
     let id = ("00000" + i).slice(-5)
     imgData.push({
       id: id,
-      uri: `/img/sexycos_${id}.jpg`
+      uri: `img/sexycos_${id}.jpg`
     })
   }
+  imgData.sort(() => 0.5 - Math.random())
 
   return imgData
 }
