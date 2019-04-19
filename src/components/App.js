@@ -3,7 +3,6 @@ import LazyImage from './lazy-image';
 import FolkMe from './Folkme';
 import './App.css';
 import placeHolder from '../images/place-holder.png';
-import arrImage from './Data';
 
 const numImages = 1356
 const imgData = []
